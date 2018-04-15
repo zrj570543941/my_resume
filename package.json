@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-eloquent": "^4.0.0",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-flat-zh-fork": "0.0.1",
+    "jsonresume-theme-material": "^1.1.2",
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-paper-zh-hant": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
