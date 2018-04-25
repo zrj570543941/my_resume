@@ -27,38 +27,37 @@
             "end": "now",
             "keywords": ["前端开发"],
             "highlights": [
-                "负责**[前端公共React组件(纯state型)](http://203.110.166.60:8087/spa/coms/index-demo.html)的维护**，主要基于**antd**定制以及再封装更高阶组件",
-                "负责该软件的PC端很多模块的前端页面的开发、维护、重构，包括封装一些复用性稍低的**业务公共组件(绑定store型)**给其他模块用",
-                "公司之前用的是Redux，所以**做过Redux版页面改成MobX版页面**，代码量起码降低了*25%*",
-                "偶尔一起协作维护webpack脚手架，比如做打包文件大小上、异步加载上的优化",
+                "协作**[前端公共React组件](http://203.110.166.60:8087/spa/coms/index-demo.html)的开发**，以及合理运用设计模式重构现有代码",
+                "协作设计师规划各模块的设计，以及协作后端用React技术栈开发各模块的页面",
+                "公司之前用的是Redux，曾几天内快速学习MobX,参与**Redux版页面改成MobX版页面**，代码量起码降低了25%",
+                "协作维护webpack脚手架，比如异步加载文件、tree shake掉npm库里没用到的代码，目前为止打包大小有降低10%左右",
                 "项目过程中印象较深的技术难点有**[实现React单例组件](http://www.cnblogs.com/zhangrenjian/p/8552167.html)**和**得到未渲染DOM的尺寸**"
             ]
         }, {
-            "employer": "鱼仓urm官网项目",
+            "employer": "鱼仓urm响应式官网项目",
             "url": "http://www.ycurm.com/",
             "position": "舟山大舟网络",
-            "summary": "一个urm系统的产品介绍网站，页面**响应式**。负责设计图到网页的输出，用到的技术有**jQuery+Sass**",
+            "summary": "一个urm系统的产品介绍网站。我负责设计图到网页的输出，用到的技术有**jQuery+Sass**",
             "start": "2016-10",
             "end": "2017-01",
             "keywords": [
-                " 前端开发实习"
+                "前端开发"
             ],
             "highlights": [
-                "在项目过程中捣腾过一个[jQuery轮播图插件](https://github.com/zrj570543941/Carousel-figure-jq-plugin)，虽然最终公司采用的是Swiper",
-                "也用**Sass**封装过一些公共的css mixin，比如封装了@media的mixin避免自己手动重复写@media代码"
+                "公司之前一直用css写样式，个人主动采用Sass来写，并最终得到采纳",
+                "在项目过程中捣腾过一个[jQuery轮播图插件](https://github.com/zrj570543941/Carousel-figure-jq-plugin)，虽然最终公司采用的是Swiper"
             ]
         }, {
-            "employer": "大舟山房产官网项目",
+            "employer": "大舟山房产官网项目和一些H5活动页",
             "url": "http://house.dazhoushan.com/",
             "position": "舟山大舟网络",
-            "summary": "一个纯PC端的企业级官网类型网站。技术栈是jQuery。现在已经改版了很多",
+            "summary": "房产网是一个纯PC端的企业级官网类型网站。技术栈是jQuery；以及一些采用flexible.js方案的简单的移动端活动页",
             "start": "2016-10",
             "end": "2017-01",
             "keywords": [
-                " 前端开发实习"
+                "前端开发"
             ],
             "highlights": [
-
             ]
         }]
     },
@@ -80,14 +79,14 @@
         "repo": "https://asteroids-repo.com",
         "media": [],
         "role": "",
-        "summary": "实现了PC端箭头切换，手机端无缝滚动两个功能",
+        "summary": "jQuery插件机制实现的一个PC端箭头切换，手机端无缝滚动两个功能",
         "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
         "highlights": [
 
         ],
         "keywords": []
     }, {
-        "title": "模拟iPhone Safari滚动条的一个滚动条组件(看效果需支持touch事件)",
+        "title": "模拟iPhone Safari滚动条的一个滚动条组件",
         "category": "FOSS",
         "url": "https://zrj570543941.github.io/",
         "repo": "https://asteroids-repo.com",
