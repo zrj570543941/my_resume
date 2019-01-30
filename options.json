@@ -1,12 +1,13 @@
 {
     "sectionTitles": {
-        "employment": "工作经验与项目经历",
-        "skill": "技能",
-        "projects": "开源项目",
-        "education": "教育经历"
+        "employment": "工作经验",
+        "skills": "技能",
+        "projects": "项目经历",
+        "education": "教育经历",
+        "samples": "个人项目",
+        "info": " 自我介绍"
     },
 
     "wkhtmltopdf": {
-        "margin-top": "20mm"
     }
 }

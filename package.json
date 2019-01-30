@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "fresh-theme-bootstrap": "^0.4.0",
+    "fresh-theme-elegant": "^0.1.3",
+    "fresh-theme-underscore": "^0.1.1",
+    "hackmyresume": "1.8.0",
     "jsonresume-theme-eloquent": "^4.0.0",
     "jsonresume-theme-flat": "^0.3.7",
     "jsonresume-theme-flat-zh-fork": "0.0.1",
     "jsonresume-theme-material": "^1.1.2",
     "jsonresume-theme-paper": "^0.3.5",
-    "jsonresume-theme-paper-zh-hant": "^1.0.0"
+    "jsonresume-theme-paper-zh-hant": "^1.0.0",
+    "jsonresume-theme-rocketspacer": "^1.0.11"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hackmyresume": "rm -rf build && hackmyresume build resume.json TO build/张仁键-应聘前端-简历.pdf -o options.json --theme themes/fresh-theme-bootstrap/ --css flatly",
+    "convert": "hackmyresume convert resume-fresh.json TO resume.json -o options.json"
   },
   "author": "",
   "license": "ISC"

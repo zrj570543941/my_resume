@@ -1,153 +1,237 @@
 {
-    "name": "张仁键",
-    "meta": {
-        "format": "FRESH@0.6.0",
-        "version": "0.1.0"
-    },
-    "contact": {
-        "website": "http://www.cnblogs.com/zhangrenjian/",
-        "phone": "18368095130",
-        "email": "570543941@qq.com",
-        "other": ["https://github.com/zrj570543941"]
-    },
-    "social": [{
+  "name": "张仁键",
+  "meta": {
+    "format": "FRESH@0.5.0",
+    "version": "0.6.0"
+  },
+  "info": {
+    "brief": "我一直以来的目标：不会写好页面的前端不是好前端，只会写页面的也不是个好前端"
+  },
+  "contact": {
+    "website": "http://www.cnblogs.com/zhangrenjian/",
+    "phone": "18368095130",
+    "email": "570543941@qq.com",
+    "github": "https://github.com/zrj570543941",
+    "other": [
+      {
         "label": "GitHub",
-        "network": "GitHub",
-        "user": "zrj570543941",
-        "url": "https://github.com/zrj570543941"
-    }],
-    "employment": {
-        "summary": "Optional overall employment summary. Not used in most themes.",
-        "history": [{
-            "employer": "e-cology9项目",
-            "url": "http://e8.weaver.com.cn/wui/main.jsp",
-            "position": "上海泛微",
-            "summary": "这是一个大型的企业级OA软件系统，也是该公司的核心产品。产品开发已近两年，我参与接近一年。我负责的是跟很多前后端人员协作开发这个软件——e-cology9的**PC端页面**的制作，技术栈是**React+React Router+MobX+Redux**",
-            "start": "2017-07",
-            "end": "now",
-            "keywords": ["前端开发"],
-            "highlights": [
-                "协作**[前端公共React组件](http://203.110.166.60:8087/spa/coms/index-demo.html)的开发**，以及合理运用设计模式重构现有代码",
-                "协作设计师规划各模块的设计，以及协作后端用React技术栈开发各模块的页面",
-                "公司之前用的是Redux，曾几天内快速学习MobX,参与**Redux版页面改成MobX版页面**，代码量起码降低了25%",
-                "协作维护webpack脚手架，比如异步加载文件、tree shake掉npm库里没用到的代码，目前为止打包大小有降低10%左右",
-                "项目过程中印象较深的技术难点有**[实现React单例组件](http://www.cnblogs.com/zhangrenjian/p/8552167.html)**和**得到未渲染DOM的尺寸**"
-            ]
-        }, {
-            "employer": "鱼仓urm响应式官网项目",
-            "url": "http://www.ycurm.com/",
-            "position": "舟山大舟网络",
-            "summary": "一个urm系统的产品介绍网站。我负责设计图到网页的输出，用到的技术有**jQuery+Sass**",
-            "start": "2016-10",
-            "end": "2017-01",
-            "keywords": [
-                "前端开发"
-            ],
-            "highlights": [
-                "公司之前一直用css写样式，个人主动采用Sass来写，并最终得到采纳",
-                "在项目过程中捣腾过一个[jQuery轮播图插件](https://github.com/zrj570543941/Carousel-figure-jq-plugin)，虽然最终公司采用的是Swiper"
-            ]
-        }, {
-            "employer": "大舟山房产官网项目和一些H5活动页",
-            "url": "http://house.dazhoushan.com/",
-            "position": "舟山大舟网络",
-            "summary": "房产网是一个纯PC端的企业级官网类型网站。技术栈是jQuery；以及一些采用flexible.js方案的简单的移动端活动页",
-            "start": "2016-10",
-            "end": "2017-01",
-            "keywords": [
-                "前端开发"
-            ],
-            "highlights": [
-            ]
-        }]
-    },
-    "projects": [{
-        "title": "百度ife任务",
-        "category": "FOSS",
-        "url": "https://zrj570543941.github.io/",
-        "repo": "https://baidu.com",
-        "media": [],
-        "role": "",
-        "summary": "包括树形组件、自己实现的栅格化系统、二叉树遍历演示等",
-        "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": [],
-        "keywords": []
-    }, {
-        "title": "jQuery轮播图插件",
-        "category": "FOSS",
-        "url": "https://zrj570543941.github.io/",
-        "repo": "https://asteroids-repo.com",
-        "media": [],
-        "role": "",
-        "summary": "jQuery插件机制实现的一个PC端箭头切换，手机端无缝滚动两个功能",
-        "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
-        "highlights": [
-
-        ],
-        "keywords": []
-    }, {
-        "title": "模拟iPhone Safari滚动条的一个滚动条组件",
-        "category": "FOSS",
-        "url": "https://zrj570543941.github.io/",
-        "repo": "https://asteroids-repo.com",
-        "media": [],
-        "role": "",
-        "summary": "原生js实现的类似iPhone Safari滚动条效果的一个组件，支持惯性滚动、橡皮筋回弹、手指再按停止滚动等特性",
-        "description": "",
-        "highlights": [
-
-        ],
-        "keywords": []
-    }],
-    "education": {
-        "summary": "Optional overall education summary. Not used in most themes.",
-        "level": "degree",
-        "degree": "BSCS",
-        "history": [{
-            "institution": "浙江海洋大学",
-            "title": "",
-            "url": "",
-            "start": "2013-09",
-            "end": "2017-06",
-            "grade": "3.5",
-            "summary": "",
-            "curriculum": [
-                "计算机科学与技术"
-            ]
-        }]
-    },
-    "skills": {
-        "sets": [{
-            "name": "框架",
-            "level": "beginner",
-            "skills": [
-                "React",
-                "React-Router",
-                "MobX"
-            ]
-        }, {
-            "name": "类库、UI框架",
-            "level": "beginner",
-            "skills": [
-                "jQuery",
-                "BootStrap"
-            ]
-        }, {
-            "name": "基础",
-            "level": "beginner",
-            "skills": [
-                "HTML",
-                "css",
-                "JavaScript"
-            ]
-        }, {
-            "name": "工具",
-            "level": "beginner",
-            "skills": [
-                "Sass",
-                "webpack"
-            ]
-        }],
-        "list": []
+        "category": "url",
+        "value": "https://github.com/zrj570543941"
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "zrj570543941",
+      "url": "https://github.com/zrj570543941"
     }
+  ],
+  "employment": {
+    "summary": "Optional overall employment summary. Not used in most themes.",
+    "history": [
+      {
+        "employer": "端点",
+        "url": "https://www.terminus.io/",
+        "position": "杭州",
+        "summary": "对外对客户,这是一家提供解决方案的公司，为了更好更快地提供解决方案，我所呆的企业中台就是负责搭建一个从项目管理、项目开发、沉淀复用到部署的这样的一套成熟的工作流程",
+        "start": "2018-06",
+        "end": "now",
+        "keywords": [
+          "前端开发"
+        ],
+        "highlights": [
+          "拼装平台前端页面部分的工程搭建",
+          "负责拼装平台、基于拼装的客户项目的前端页面的开发",
+          "node工具以及一些服务的开发",
+          "一些通用组件的封装"
+        ]
+      },
+      {
+        "employer": "泛微",
+        "url": "https://www.weaver.com.cn/",
+        "position": "上海",
+        "summary": "这是一个提供OA服务的公司，按企业规模分成了中大小三类型的OA。我所在的团队负责中大小OA(该公司的核心产品)e-cology9的前端页面开发",
+        "start": "2017-07",
+        "end": "2018-05",
+        "keywords": [
+          "前端开发"
+        ],
+        "highlights": [
+          "负责OA系统的设计稿到页面的输出",
+          "通用组件的封装"
+        ]
+      },
+      {
+        "employer": "大舟山",
+        "url": "http://www.dazhoushan.com/",
+        "position": "舟山",
+        "summary": "舟山本地的一个生活服务平台，我主要参与里面一些官网、H5活动页的开发",
+        "start": "2016-10",
+        "end": "2017-03",
+        "keywords": [
+          "前端实习"
+        ],
+        "highlights": [
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "start": "2018-06",
+      "end": "now",
+      "title": "拼装平台",
+      "category": "FOSS",
+      "url": "https://front.tangram.terminus.io",
+      "repo": "",
+      "media": [],
+      "role": "端点",
+      "summary": "一个甲方项目：对于开发者，不仅仅有组件复用，也包含组件间关系的业务层的复用，这是一个**业务复用**的平台；对于产品经理，平台提供快速交付能力，即**开发阶段之前便可向客户展示项目大致效果**。平台具体包括操作拼装流程的SPA、实现复用的clis和sdk等。技术栈是**React+React Router+mobx-state-tree+Typescript**",
+      "description": "test",
+      "highlights": [
+        "主导了该平台初期前端SPA部分项目结构从零到一的搭建，包括webpack配置、结构设计、统一处理route等",
+        "使用React全家桶参与部分SPA页面的开发，印象较深的是可拖拽树形表格的封装",
+        "基于node、Koa的截图服务的开发，包含限制并发数的简单处理",
+        "其他：拼装接入公司其他系统所需cli的开发；拼装解析page.json来的loader的开发来配合sdk动态生成项目的每个页面"
+      ],
+      "keywords": []
+    },
+    {
+      "start": "2018-11",
+      "end": "now",
+      "title": "家家悦运营后台(基于拼装)",
+      "category": "FOSS",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "端点",
+      "summary": "第一个基于拼装平台实施的一个项目，重点就是基于拼装复用已有业务，更快速的完成项目交付，包含[运营后台](http://admin-staging.jjyyx.com)和[服务台](http://sdesk-staging.jjyyx.com)两部分技术栈**React全家桶**",
+      "description": "test",
+      "highlights": [
+        "基于React和dva的页面的常规开发，包括一些通用业务组件的提取与封装，如Table+Filter，formWrapper",
+        "主导业务团队基于拼装的开发流程",
+        "原有运营后台系统的重构，从jQuery迁移至React，使他们能够在拼装上复用"
+      ],
+      "keywords": []
+    },
+    {
+      "title": "e-cology9项目",
+      "category": "FOSS",
+      "start": "2017-07",
+      "end": "2018-05",
+      "url": "http://e8.weaver.com.cn/wui/main.jsp",
+      "repo": "https://baidu.com",
+      "media": [],
+      "role": "泛微",
+      "summary": "这是一个大型的企业级OA软件系统，也是该公司的核心产品。产品开发已近两年，我参与接近一年。我负责的是跟很多前后端人员协作开发这个软件——e-cology9的PC页面的制作，技术栈是**React+React Router+MobX+Redux**",
+      "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
+      "highlights": [
+        "协作**[前端公共React组件](http://203.110.166.60:8087/spa/coms/index-demo.html)的开发**，以及合理运用设计模式优化现有代码",
+        "协作设计师规划各模块的设计，以及协作后端用React技术栈开发各模块的页面",
+        "公司之前用的是Redux,参与**Redux版页面到MobX版页面**的重构，代码量起码降低了25%",
+        "协作维护和提高webpack脚手架的性能，我所做的有使打包大小提高20%左右"
+      ],
+      "keywords": []
+    },
+    {
+      "title": "一些官网项目和H5活动页",
+      "role": "大舟山",
+      "url": "",
+      "position": "舟山大舟网络",
+      "summary": "包括一个[鱼仓URM的响应式官网](http://www.ycurm.com)，公司一直用css写样式，我推崇了下Sass并得到采纳，手写了个轮播图jQuery插件得到采用；一个[PC端的房地产官网项目](http://house.dazhoushan.com/)，技术栈都是jQuery",
+      "start": "2016-10",
+      "end": "2017-03",
+      "keywords": ["[链接1&nbsp;&nbsp;](http://www.ycurm.com)", "[链接2](http://house.dazhoushan.com/)"],
+      "highlights": [
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "title": "React树形可拖拽表格",
+      "url": "https://zrj570543941.github.io/draggable-table/",
+      "summary": "",
+      "start": "2017-07",
+      "end": "2018-05"
+    },
+    {
+      "title": "百度ife任务",
+      "url": "https://zrj570543941.github.io/",
+      "summary": "包括树形组件、自己实现的栅格化系统、二叉树遍历演示等",
+      "date": ""
+    },
+    {
+      "title": "jQuery轮播图插件",
+      "summary": "jQuery插件机制实现的一个PC端箭头切换，手机端无缝滚动两个功能",
+      "url": "https://zrj570543941.github.io/",
+      "date": "2016-11-01"
+    },
+    {
+      "title": "模拟iPhone Safari滚动条的一个滚动条组件",
+      "summary": "原生js实现的类似iPhone Safari滚动条效果的一个组件，支持惯性滚动、橡皮筋回弹、手指再按停止滚动等特性",
+      "url": "https://zrj570543941.github.io/",
+      "date": "2017-01"
+    }
+  ],
+  "education": {
+    "summary": "Optional overall education summary. Not used in most themes.",
+    "level": "degree",
+    "degree": "BSCS",
+    "history": [
+      {
+        "studyType": "本科",
+        "institution": "浙江海洋大学",
+        "title": "",
+        "url": "",
+        "start": "2013-09",
+        "end": "2017-06",
+        "grade": "3.5",
+        "summary": "",
+        "area": "计算机科学与技术",
+        "curriculum": [
+
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "框架",
+        "level": "intermediate",
+        "skills": [
+          "React",
+          "React-Router",
+          "MobX"
+        ]
+      },
+      {
+        "name": "类库、UI框架",
+        "level": "intermediate",
+        "skills": [
+          "jQuery",
+          "BootStrap"
+        ]
+      },
+      {
+        "name": "基础",
+        "level": "intermediate",
+        "skills": [
+          "HTML",
+          "css",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "工具",
+        "level": "intermediate",
+        "skills": [
+          "Sass",
+          "webpack"
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "_from": "fresh-theme-bootstrap",
+  "_id": "fresh-theme-bootstrap@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-1UcjfQ3kZu95Pb6G4SqrIy9+46mnCdLIatvhbuP8AgwXsil147RUwIe4tk+x54ZZctMIEWZ+4raBduY+wMfLbg==",
+  "_location": "/fresh-theme-bootstrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fresh-theme-bootstrap",
+    "name": "fresh-theme-bootstrap",
+    "escapedName": "fresh-theme-bootstrap",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fresh-theme-bootstrap/-/fresh-theme-bootstrap-0.4.0.tgz",
+  "_shasum": "404d87500b8a55f32f8d2a804a70e1d7400552b4",
+  "_spec": "fresh-theme-bootstrap",
+  "_where": "F:\\terminus\\my_resume",
+  "author": {
+    "name": "aruberto",
+    "url": "https://github.com/aruberto"
+  },
+  "bugs": {
+    "url": "https://github.com/aruberto/fresh-theme-bootstrap/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Responsive resume theme using Bootstrap and Bootswatch.",
+  "homepage": "https://github.com/aruberto/fresh-theme-bootstrap#readme",
+  "keywords": [
+    "fresh-themes",
+    "hackmyresume",
+    "fresh",
+    "fresca"
+  ],
+  "license": "MIT",
+  "name": "fresh-theme-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aruberto/fresh-theme-bootstrap/test"
+  },
+  "version": "0.4.0"
+}
