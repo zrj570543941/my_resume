@@ -91,10 +91,10 @@
       "summary": "一个甲方项目：对于开发者，不仅仅有组件复用，也包含组件间关系的业务层的复用，这是一个**业务复用**的平台；对于产品经理，平台提供快速交付能力，即**开发阶段之前便可向客户展示项目大致效果**。平台具体包括操作拼装流程的SPA、实现复用的clis和sdk等。技术栈是**React+React Router+mobx-state-tree+Typescript**",
       "description": "test",
       "highlights": [
-        "主导了该平台初期前端SPA部分项目结构从零到一的搭建，包括webpack配置、结构设计、统一处理route等",
+        "主导了该平台初期前端SPA部分项目结构从零到一的搭建，包括webpack配置、统一处理route以及loading等",
         "使用React全家桶参与部分SPA页面的开发，印象较深的是可拖拽树形表格的封装",
         "基于node、Koa的截图服务的开发，包含限制并发数的简单处理",
-        "其他：拼装接入公司其他系统所需cli的开发；拼装解析page.json来的loader的开发来配合sdk动态生成项目的每个页面"
+        "其他：拼装接入公司其他系统所需cli的开发；拼装解析page.json的loader的开发来配合sdk动态生成项目的每个页面"
       ],
       "keywords": []
     },
@@ -130,8 +130,8 @@
       "highlights": [
         "协作**[前端公共React组件](http://203.110.166.60:8087/spa/coms/index-demo.html)的开发**，以及合理运用设计模式优化现有代码",
         "协作设计师规划各模块的设计，以及协作后端用React技术栈开发各模块的页面",
-        "公司之前用的是Redux,参与**Redux版页面到MobX版页面**的重构，代码量起码降低了25%",
-        "协作维护和提高webpack脚手架的性能，我所做的有使打包大小提高20%左右"
+        "公司之前用的是Redux,几天内快速学习Mobx，参与**Redux版页面到MobX版页面**的重构",
+        "协作维护和提高webpack脚手架的性能"
       ],
       "keywords": []
     },
@@ -140,7 +140,7 @@
       "role": "大舟山",
       "url": "",
       "position": "舟山大舟网络",
-      "summary": "包括一个[鱼仓URM的响应式官网](http://www.ycurm.com)，公司一直用css写样式，我推崇了下Sass并得到采纳，手写了个轮播图jQuery插件得到采用；一个[PC端的房地产官网项目](http://house.dazhoushan.com/)，技术栈都是jQuery",
+      "summary": "包括一个[鱼仓URM的响应式官网](http://www.ycurm.com)，公司一直用css写样式，我推崇了下Sass并得到采纳，手写了个轮播图jQuery插件得到采用；一个[PC端的房地产官网项目](http://house.dazhoushan.com/)，以及其他一些H5活动页面，技术栈都是jQuery",
       "start": "2016-10",
       "end": "2017-03",
       "keywords": ["[链接1&nbsp;&nbsp;](http://www.ycurm.com)", "[链接2](http://house.dazhoushan.com/)"],
@@ -163,16 +163,16 @@
       "date": ""
     },
     {
-      "title": "jQuery轮播图插件",
-      "summary": "jQuery插件机制实现的一个PC端箭头切换，手机端无缝滚动两个功能",
-      "url": "https://zrj570543941.github.io/",
-      "date": "2016-11-01"
-    },
-    {
       "title": "模拟iPhone Safari滚动条的一个滚动条组件",
       "summary": "原生js实现的类似iPhone Safari滚动条效果的一个组件，支持惯性滚动、橡皮筋回弹、手指再按停止滚动等特性",
       "url": "https://zrj570543941.github.io/",
       "date": "2017-01"
+    },
+    {
+      "title": "jQuery轮播图插件",
+      "summary": "jQuery插件机制实现的一个PC端箭头切换，手机端无缝滚动两个功能",
+      "url": "https://zrj570543941.github.io/",
+      "date": "2016-11-01"
     }
   ],
   "education": {
